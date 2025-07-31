@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+
+# VSCode settings (opsional)
+.vscode/
+
+# SQLite database (jika ingin diabaikan)
+*.db

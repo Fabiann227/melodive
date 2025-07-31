@@ -1,0 +1,132 @@
+2025-07-30 15:49:29,359 - root - INFO - \U0001f680 Bot started
+2025-07-30 15:49:29,359 - aiogram.dispatcher - INFO - Start polling
+2025-07-30 15:49:30,500 - aiogram.dispatcher - INFO - Run polling for bot @xblu2o2bot id=7289261274 - 'xblu'
+2025-07-30 15:49:43,905 - aiogram.event - INFO - Update id=642532785 is handled. Duration 797 ms by bot id=7289261274
+2025-07-30 15:49:59,501 - aiogram.event - INFO - Update id=642532786 is not handled. Duration 686 ms by bot id=7289261274
+2025-07-30 15:49:59,501 - aiogram.event - ERROR - Cause exception while process update id=642532786 by bot id=7289261274
+NameError: name 'sent_msg' is not defined
+Traceback (most recent call last):
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "c:\Han\Base\xbluv1\middlewares\banned_filter.py", line 11, in __call__
+    return await handler(event, data)
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "c:\Han\Base\xbluv1\handlers\menfess.py", line 54, in handle_menfess
+    (user_id, sent_msg.message_id, today))
+NameError: name 'sent_msg' is not defined
+2025-07-30 15:53:01,662 - aiogram.dispatcher - INFO - Polling stopped
+2025-07-30 15:53:01,662 - aiogram.dispatcher - INFO - Polling stopped for bot @xblu2o2bot id=7289261274 - 'xblu'
+2025-07-30 15:53:15,493 - root - INFO - \U0001f680 Bot started
+2025-07-30 15:53:15,493 - aiogram.dispatcher - INFO - Start polling
+2025-07-30 15:53:16,172 - aiogram.dispatcher - INFO - Run polling for bot @xblu2o2bot id=7289261274 - 'xblu'
+2025-07-30 15:54:48,823 - handlers.menfess - INFO - Menfess sent by 7298913504 as 32
+2025-07-30 15:54:49,308 - aiogram.event - INFO - Update id=642532787 is handled. Duration 1515 ms by bot id=7289261274
+2025-07-30 15:55:43,741 - aiogram.event - INFO - Update id=642532788 is not handled. Duration 15 ms by bot id=7289261274
+2025-07-30 15:55:43,741 - aiogram.event - ERROR - Cause exception while process update id=642532788 by bot id=7289261274
+AttributeError: 'NoneType' object has no attribute 'startswith'
+Traceback (most recent call last):
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\fsm\middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\router.py", line 156, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\router.py", line 123, in _wrapped
+    return await self._propagate_event(
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "c:\Han\Base\xbluv1\middlewares\banned_filter.py", line 11, in __call__
+    return await handler(event, data)
+  File "C:\Han\Base\xbluv1\venv\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "c:\Han\Base\xbluv1\handlers\menfess.py", line 15, in handle_menfess
+    if not (msg.text and msg.text.startswith("\u2764\ufe0f\u200d\U0001f525")) and not msg.caption.startswith("\u2764\ufe0f\u200d\U0001f525"):
+AttributeError: 'NoneType' object has no attribute 'startswith'
+2025-07-30 15:55:49,974 - aiogram.event - INFO - Update id=642532789 is handled. Duration 827 ms by bot id=7289261274
+2025-07-30 15:55:53,494 - aiogram.event - INFO - Update id=642532790 is handled. Duration 390 ms by bot id=7289261274
+2025-07-30 15:58:21,802 - aiogram.dispatcher - INFO - Polling stopped
+2025-07-30 15:58:21,802 - aiogram.dispatcher - INFO - Polling stopped for bot @xblu2o2bot id=7289261274 - 'xblu'
+2025-07-30 16:22:54,997 - INFO - Menfess sent by 7298913504 as 33
+2025-07-30 16:22:54,997 - INFO - Menfess sent by 7298913504 as 33
+2025-07-30 16:23:30,486 - INFO - Menfess sent by 7298913504 as 34
+2025-07-30 16:23:30,486 - INFO - Menfess sent by 7298913504 as 34
+2025-07-30 17:49:42 [INFO] menfess: Admin handler initialized.
+2025-07-30 17:49:42 [INFO] menfess: Admin handler initialized.
+2025-07-30 17:49:42 [INFO] menfess: Bot started successfully.
+2025-07-30 17:49:42 [INFO] menfess: Bot started successfully.
+2025-07-30 17:49:42 [INFO] menfess: Bot started successfully.
+2025-07-30 17:54:43 [INFO] menfess: Admin handler initialized.
+2025-07-30 17:54:43 [INFO] menfess: Admin handler initialized.
+2025-07-30 17:54:43 [INFO] menfess: Bot started successfully.
+2025-07-30 17:54:43 [INFO] menfess: Bot started successfully.
+2025-07-30 17:54:43 [INFO] menfess: Bot started successfully.
+2025-07-30 17:56:04 [INFO] menfess: Admin handler initialized.
+2025-07-30 17:56:04 [INFO] menfess: Admin handler initialized.
+2025-07-30 17:56:04 [INFO] menfess: Bot started successfully.
+2025-07-30 17:56:04 [INFO] menfess: Bot started successfully.
+2025-07-30 17:56:04 [INFO] menfess: Bot started successfully.
+2025-07-30 17:57:07 [INFO] menfess: Admin handler initialized.
+2025-07-30 17:57:07 [INFO] menfess: Admin handler initialized.
+2025-07-30 17:57:07 [INFO] menfess: Bot started successfully.
+2025-07-30 17:57:07 [INFO] menfess: Bot started successfully.
+2025-07-30 17:57:07 [INFO] menfess: Bot started successfully.
+2025-07-30 17:58:06 [INFO] menfess: Admin handler initialized.
+2025-07-30 17:58:06 [INFO] menfess: Admin handler initialized.
+2025-07-30 17:58:06 [INFO] menfess: Admin handler initialized.
+2025-07-30 17:58:06 [INFO] menfess: Bot started successfully.
+2025-07-30 17:58:06 [INFO] menfess: Bot started successfully.
+2025-07-30 17:58:06 [INFO] menfess: Bot started successfully.
+2025-07-30 17:58:06 [INFO] menfess: Bot started successfully.
+2025-07-30 17:58:09 [INFO] menfess: Dashboard requested by 6443841535
+2025-07-30 17:58:09 [INFO] menfess: Dashboard requested by 6443841535
+2025-07-30 17:58:09 [INFO] menfess: Dashboard requested by 6443841535
+2025-07-30 17:58:09 [INFO] menfess: Dashboard requested by 6443841535
